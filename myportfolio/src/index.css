@@ -60,9 +60,10 @@
   }
   
   .nav {
-    background-color: white;
+    background-color: #121212;
     font-size: 25px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
+
