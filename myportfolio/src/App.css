@@ -41,3 +41,17 @@
     color: #888;
   }
   
+  .nav {
+    position: inherit;
+    justify-content: center;
+    color: blue;
+
+  }
+
+  @media screen and (max-width: 767px) {
+    .img {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      grid-gap: 5px;
+      flex-shrink: inherit;
+    }
+  }

@@ -8,11 +8,11 @@ export default function Footer(){
 
         <h3>Footer Links</h3>
         <a href="https://www.linkedin.com/in/rick-torres-a0b43267/">
-        <img class="icon" src={linkedinlogo}/>
+        <img className="icon" src={linkedinlogo}/>
         </a>
-        <block></block>
+
         <a href="https://github.com/rtocastro">
-        <img  class="icon" src={githublogo}/>
+        <img  className="icon" src={githublogo}/>
         </a>
         </>
     )
