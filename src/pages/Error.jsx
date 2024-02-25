@@ -1,4 +1,5 @@
 import { useRouteError } from 'react-router-dom';
+import errorlink from '../assets/errorfromloz.png'
 
 export default function ErrorPage() {
   const error = useRouteError();
@@ -11,7 +12,7 @@ export default function ErrorPage() {
       <p>
         <i>{error.statusText || error.message}</i>
       </p>
-      <p><img src="./assets/errorfromloz.png"></img></p>
+      <img src={errorlink}/>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './style.css';
+// import './style.css';
 
 function Form() {
     // Here we set two state variables for name and email using `useState`
@@ -19,7 +19,7 @@ function Form() {
         e.preventDefault();
 
         // Alert the user their first and last name, clear the inputs
-        alert(`Hello ${name} ${email}`);
+        alert(`Hello ${name}, thank you for submitting.`);
         setname('');
         setemail('');
     };
@@ -28,24 +28,36 @@ function Form() {
 
     return (
         <div className="container text-center">
-            <h1>
-                Hello {name} {email}
-            </h1>
+            <h4>
+                Hello {name}, you'll be hearing from me soon!
+            </h4>
             <form className="form" onSubmit={handleFormSubmit}>
                 <input
                     value={name}
                     name="name"
                     onChange={handleInputChange}
                     type="text"
-                    placeholder="First Name"
+                    placeholder="Name"
+                    required
                 />
+                <br></br>
                 <input
                     value={email}
                     name="email"
                     onChange={handleInputChange}
-                    type="text"
-                    placeholder="Last Name"
+                    type="email"
+                    placeholder="e-mail"
+                    required
                 />
+                <br></br>
+                <textarea
+                    rows="10"
+                    cols="40"
+                    name="comment"
+                    form="usrform">
+                    "Your message goes here"
+                </textarea>
+                <br></br>
                 <button type="submit">
                     Submit
                 </button>

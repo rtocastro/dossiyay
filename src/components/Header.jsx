@@ -1,7 +1,7 @@
 export default function Header(){
     return(
         <>
-        <h1>this is my header</h1>
+        <h1>Ricardo Torres (Full Stack-Developer)</h1>
         </>
     )
 }
