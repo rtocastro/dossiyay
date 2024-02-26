@@ -10,7 +10,7 @@ export default function Portfolio(){
         </a>
         <a href="https://www.github.com/rtocastro">
             <br></br>
-        <button>
+        <button className="mmbutton">
            MM Github Repostitory
         </button>
         </a>
