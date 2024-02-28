@@ -6,7 +6,7 @@ function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
-    <ul className="nav nav-tabs justify-content-center">
+    <div className="nav nav-tabs ">
       <tab className="nav-item">
         <Link
           to="/"
@@ -44,7 +44,7 @@ function NavTabs() {
           Resume
         </Link>
       </tab>
-    </ul>
+    </div>
   );
 }
 

@@ -62,14 +62,21 @@
   .nav {
     background-color: #121212;
     font-size: 25px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    direction:  inherit;
+  
+  
   }
 
   .nav-item {
     margin: 25px;
-    flex-direction: column;
 
   }
 
+
+  @media screen and (max-width: 768px) {
+    /* Use flex-direction to stack the navbar, sidebar, and body */
+
+    .nav {
+      flex-direction: column;
+    }
+  }

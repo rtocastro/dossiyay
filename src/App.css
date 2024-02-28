@@ -42,12 +42,7 @@
   }
   
   .nav {
-
-    justify-content: center;
-    align-items: center;
     color: blue;
-    flex-direction: column;
-
   }
 
 
