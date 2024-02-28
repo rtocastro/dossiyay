@@ -10,7 +10,7 @@ Oriented Programming (OOP), Express.js, SQL, Object Oriented Mapping (ORM), Mode
 Controller (MVC), Bootstrap/Bulma/Tailwind, REACT, State, MERN and some basic c++ 
             </h3>
             <div>
-                <a href={myResume} download>Download PDF</a>
+                <a href={myResume} download>click here to download my Resume</a>
             </div>
         </>
     )

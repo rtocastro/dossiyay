@@ -8,7 +8,7 @@ export default function Portfolio(){
         <a  href="https://munchmonitor-641029a8a248.herokuapp.com/">
         <img className="munchmonitor" src={mmlogo1}/>
         </a>
-        <a href="https://www.github.com/rtocastro">
+        <a href="https://github.com/Vigneshwarie/munchMonitor">
             <br></br>
         <button className="mmbutton">
            MM Github Repostitory
