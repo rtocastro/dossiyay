@@ -7,7 +7,7 @@ function NavTabs() {
 
   return (
     <div className="nav nav-tabs ">
-      <tab className="nav-item">
+      <div className="nav-item">
         <Link
           to="/"
           // This is a conditional (ternary) operator that checks to see if the current page is "About"
@@ -16,8 +16,8 @@ function NavTabs() {
         >
           About Me
         </Link>
-      </tab>
-      <tab className="nav-item">
+      </div>
+      <div className="nav-item">
         <Link
           to="/Contact"
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -25,8 +25,8 @@ function NavTabs() {
         >
           Contact
         </Link>
-      </tab>
-      <tab className="nav-item">
+      </div>
+      <div className="nav-item">
         <Link
           to="/Portfolio"
           // Check to see if the currentPage is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -34,8 +34,8 @@ function NavTabs() {
         >
           Portfolio
         </Link>
-      </tab>
-      <tab className="nav-item">
+      </div>
+      <div className="nav-item">
         <Link
           to="/Resume"
           // Check to see if the currentPage is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -43,7 +43,7 @@ function NavTabs() {
         >
           Resume
         </Link>
-      </tab>
+      </div>
     </div>
   );
 }
