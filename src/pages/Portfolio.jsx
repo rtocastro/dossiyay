@@ -3,31 +3,35 @@ import lalogo from '../assets/lalogo.png';
 
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 
-export default function Portfolio(){
-    return(
+export default function Portfolio() {
+    return (
         <>
-        <h2>This is my Portfolio:</h2>
-        <a  href="https://munchmonitor-641029a8a248.herokuapp.com/">
-        <img className="portpicture" src={mmlogo1}/>
-        </a>
-        <a href="https://github.com/Vigneshwarie/munchMonitor">
-            <br></br>
-        <button className="ghbutton">
-           MM Github Repostitory
-        </button>
-        </a>
+            <h2>This is my Portfolio:</h2>
+            <div>
+            <a href="https://munchmonitor-641029a8a248.herokuapp.com/">
+                <img className="portpicture" src={mmlogo1} />
+            </a>
+            <a href="https://github.com/Vigneshwarie/munchMonitor">
+                <br></br>
+                <button className="ghbutton">
+                    MM Github Repostitory
+                </button>
+            </a>
+            </div>
+            <div>
 
-        <a  href="https://helpyhelperton.onrender.com/">
-        <img className="portpicture" src={lalogo}/>
-        </a>
-        <a href="https://github.com/rtocastro/helpyhelperton">
-            <br></br>
-        <button className="ghbutton">
-           LA Github Repostitory
-        </button>
-        </a>
-       </>
-       
- 
+                <a href="https://helpyhelperton.onrender.com/">
+                    <img className="portpicture" src={lalogo} />
+                </a>
+                <a href="https://github.com/rtocastro/helpyhelperton">
+                    <br></br>
+                    <button className="ghbutton">
+                        LA Github Repostitory
+                    </button>
+                </a>
+            </div>
+        </>
+
+
     )
 }
