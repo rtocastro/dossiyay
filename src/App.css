@@ -84,7 +84,7 @@
     margin: 50px;
   }
 
- .munchmonitor {
+ .portpicture {
 
   max-width: 250px;
   max-height: 250px;
@@ -93,6 +93,6 @@
 
 }
 
-.mmbutton{
+.ghbutton{
   box-shadow: 0 0 5px turquoise;
 }

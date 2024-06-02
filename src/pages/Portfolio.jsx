@@ -1,4 +1,6 @@
 import mmlogo1 from '../assets/mmlogo1.png';
+import lalogo from '../assets/lalogo.png';
+
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 
 export default function Portfolio(){
@@ -6,12 +8,22 @@ export default function Portfolio(){
         <>
         <h2>This is my Portfolio:</h2>
         <a  href="https://munchmonitor-641029a8a248.herokuapp.com/">
-        <img className="munchmonitor" src={mmlogo1}/>
+        <img className="portpicture" src={mmlogo1}/>
         </a>
         <a href="https://github.com/Vigneshwarie/munchMonitor">
             <br></br>
-        <button className="mmbutton">
+        <button className="ghbutton">
            MM Github Repostitory
+        </button>
+        </a>
+
+        <a  href="https://helpyhelperton.onrender.com/">
+        <img className="portpicture" src={lalogo}/>
+        </a>
+        <a href="https://github.com/rtocastro/helpyhelperton">
+            <br></br>
+        <button className="ghbutton">
+           LA Github Repostitory
         </button>
         </a>
        </>
