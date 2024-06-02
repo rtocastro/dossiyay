@@ -8,15 +8,15 @@ export default function Portfolio() {
         <>
             <h2>This is my Portfolio:</h2>
             <div>
-            <a href="https://munchmonitor-641029a8a248.herokuapp.com/">
-                <img className="portpicture" src={mmlogo1} />
-            </a>
-            <a href="https://github.com/Vigneshwarie/munchMonitor">
-                <br></br>
-                <button className="ghbutton">
-                    MM Github Repostitory
-                </button>
-            </a>
+                <a href="https://munchmonitor-641029a8a248.herokuapp.com/">
+                    <img className="portpicture" src={mmlogo1} />
+                </a>
+                <a href="https://github.com/Vigneshwarie/munchMonitor">
+                    <br></br>
+                    <button className="ghbutton">
+                        MM Github Repostitory
+                    </button>
+                </a>
             </div>
             <div>
 
