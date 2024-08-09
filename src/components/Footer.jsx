@@ -7,7 +7,7 @@ export default function Footer(){
         <>
 
         <h3>My Links</h3>
-        <a href="https://www.linkedin.com/in/rick-torres-a0b43267/">
+        <a href="https://www.linkedin.com/in/ricardo-torres-a0b43267">
         <img className="icon" title="Linked-In" src={linkedinlogo}/>
         </a>
 
