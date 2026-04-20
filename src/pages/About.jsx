@@ -1,23 +1,69 @@
-import devRick from '../assets/devRICK.png'
+import devRick from '../assets/devRICK.png';
 
-export default function About(){
-    return(
-        <>
-        <h2>About Me:</h2>
-        
-        <  img src={devRick} className="devimg" />
-        <h4>Dear Visitor,
+export default function About() {
+  return (
+    <>
+      <section className="hero section">
+        <div className="hero-copy">
+          <p className="eyebrow">UX / Design Systems / Project Leadership</p>
+          <h1>
+            I design scalable, accessible digital experiences that connect users,
+            platforms, and ideas.
+          </h1>
+          <p className="hero-text">
+            I’m Rick Torres, a project manager, UX/UI designer, and frontend
+            developer focused on building thoughtful digital systems for
+            education, community, and innovation.
+          </p>
+          <p className="hero-text">
+            My work sits at the intersection of user experience, visual
+            structure, and implementation planning. I help turn broad ideas into
+            clear product direction, usable interfaces, and delivery-ready
+            systems.
+          </p>
 
-Welcome to my Professional Portfolio. Within these pages, you'll uncover insights into my academic journey, educational background, and my extensive experience in the realm of computer science. Your decision to delve into these details is truly appreciated, reflecting your commitment to understanding me on a deeper level.
+          <div className="hero-actions">
+            <a className="button-primary" href="/portfolio">
+              View selected work
+            </a>
+            <a className="button-secondary" href="/contact">
+              Get in touch
+            </a>
+          </div>
+        </div>
 
-Throughout my academic career, I have immersed myself in various technologies, confronting and overcoming challenges while consistently surpassing my own expectations. Notably, I maintained an exceptional "A" grade throughout my rigorous Coding Boot Camp. Each week presented a new concept to master, demanding discipline and unwavering dedication to achieving excellence. This steadfast commitment to learning mirrors my readiness to embrace tight deadlines and deliver optimal solutions – qualities exemplified by the consistent attainment of top grades.
+        <div className="hero-media">
+          <img src={devRick} alt="Rick Torres portrait" className="profile-image" />
+        </div>
+      </section>
 
-I invite you to explore my resume, where you'll gain further insights into my qualifications and experiences. Please feel free to reach out to me through the designated "Contact" page should you have any inquiries or opportunities you wish to discuss.
+      <section className="section grid-two">
+        <div className="card">
+          <p className="eyebrow">What I do</p>
+          <h2>How I work</h2>
+          <ul className="feature-list">
+            <li>Discovery, stakeholder alignment, and UX strategy</li>
+            <li>User journeys, information architecture, and wireframes</li>
+            <li>UI systems and scalable visual consistency</li>
+            <li>Frontend alignment with React-based workflows</li>
+            <li>Project communication, reviews, and handoff planning</li>
+          </ul>
+        </div>
 
-Thank you once again for taking the time to visit my Professional Portfolio. Your interest is truly valued.
-
-Warm regards,
-Rick</h4>
-        </>
-    )
+        <div className="card">
+          <p className="eyebrow">Current focus</p>
+          <h2>What I’m building toward</h2>
+          <p className="section-copy">
+            I’m currently focused on projects that need strong structure across
+            UX, design systems, and implementation planning—especially work in
+            education, public interest, and community-centered digital products.
+          </p>
+          <p className="section-copy">
+            My goal is to help teams move from idea to execution with more
+            clarity, better usability, and stronger long-term consistency.
+          </p>
+        </div>
+      </section>
+    </>
+  );
 }
