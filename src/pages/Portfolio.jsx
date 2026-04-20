@@ -2,38 +2,38 @@ const projects = [
   {
     title: 'Munch Monitor Pro',
     liveUrl: 'https://munchmonitorpro.onrender.com',
-    repoUrl: 'https://github.com/',
-    role: 'UI Design / Frontend Development',
+    repoUrl: 'https://github.com/', // replace when ready
+    role: 'UX/UI Design • Frontend Development',
     summary:
-      'A responsive web app focused on usability, structure, and clear task flow.',
+      'A responsive web application focused on improving usability, content clarity, and overall user flow.',
     problem:
-      'The goal was to organize a functional experience that made content and user actions easier to navigate.',
+      'The platform required a clearer structure to help users understand available features and move through tasks without confusion.',
     solution:
-      'I helped shape the interface structure, improve presentation clarity, and translate ideas into a working frontend experience.',
+      'I led the UI structure and frontend implementation, organizing the interface into clearer sections, improving visual hierarchy, and creating a more intuitive navigation experience.',
   },
   {
     title: 'Helpy Helperton',
     liveUrl: 'https://helpyhelperton.onrender.com',
-    repoUrl: 'https://github.com/',
-    role: 'Frontend Development / UX Support',
+    repoUrl: 'https://github.com/', // replace when ready
+    role: 'Frontend Development • UX Support',
     summary:
-      'A project centered on making information and actions easier for users to access.',
+      'A web experience designed to make user actions and information easier to access and understand.',
     problem:
-      'The product needed a cleaner path for users to understand what to do and where to go next.',
+      'Users needed a more straightforward way to navigate content and understand what actions to take next.',
     solution:
-      'I contributed to the frontend and helped support a more usable, organized interface experience.',
+      'I contributed to frontend development while improving layout clarity and interaction flow, helping create a more guided and user-friendly experience.',
   },
   {
     title: 'Portfolio Repositioning',
     liveUrl: '/',
     repoUrl: 'https://github.com/rtocastro/dossiyay',
-    role: 'UX Strategy / Content Design / Frontend Refresh',
+    role: 'UX Strategy • Design Systems Thinking • Frontend',
     summary:
-      'A strategic refresh of my portfolio to better reflect my current work in UX, systems thinking, and project leadership.',
+      'A strategic redesign of my portfolio to better reflect my work in UX, design systems, and project leadership.',
     problem:
-      'The previous portfolio positioned me as an early-career coding portfolio rather than someone leading UX and delivery work.',
+      'The previous version positioned me as a junior developer rather than someone capable of leading UX and structured product work.',
     solution:
-      'I rewrote the site, upgraded the hierarchy, and reframed the content around project thinking, design structure, and implementation readiness.',
+      'I restructured the site from the ground up, refining messaging, improving layout hierarchy, and aligning the presentation with UX strategy, system thinking, and implementation readiness.',
   },
 ];
 
@@ -43,8 +43,8 @@ export default function Portfolio() {
       <p className="eyebrow">Selected work</p>
       <h1>Projects with clearer structure and stronger intent</h1>
       <p className="section-copy portfolio-intro">
-        These projects reflect my approach to building digital experiences with
-        usability, clarity, and scalable structure in mind.
+        I focus on structuring digital experiences that are easier to use,
+        easier to build, and easier to scale.
       </p>
 
       <div className="project-grid">
