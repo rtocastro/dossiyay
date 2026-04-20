@@ -1,19 +1,24 @@
-import linkedinlogo from '../assets/linkedinlogo.png';
-import githublogo from '../assets/githublogo.png';
-import '../App.css';
-
-export default function Footer(){
-    return(
-        <>
-
-        <h3>My Links</h3>
-        <a href="https://www.linkedin.com/in/ricardo-torres-a0b43267">
-        <img className="icon" title="Linked-In" src={linkedinlogo}/>
+export default function Footer() {
+  return (
+    <div className="footer-inner">
+      <p className="footer-title">Let’s build something thoughtful.</p>
+      <div className="footer-links">
+        <a
+          href="https://www.linkedin.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          LinkedIn
         </a>
-
-        <a href="https://github.com/rtocastro">
-        <img  className="icon" title="GitHub" src={githublogo}/>
+        <a
+          href="https://github.com/rtocastro"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHub
         </a>
-        </>
-    )
+        <a href="mailto:rick@example.com">Email</a>
+      </div>
+    </div>
+  );
 }
