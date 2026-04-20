@@ -55,7 +55,7 @@ export default function About() {
           <h2>What I’m building toward</h2>
           <p className="section-copy">
             I’m currently focused on projects that need strong structure across
-            UX, design systems, and implementation planning—especially work in
+            UX, design systems, and implementation planning, especially work in
             education, public interest, and community-centered digital products.
           </p>
           <p className="section-copy">
