@@ -12,7 +12,7 @@ export default function Contact() {
       <div className="contact-card">
         <div className="contact-row">
           <span>Email</span>
-          <a href="mailto:rick@example.com">rick@example.com</a>
+          <a href="mailto:RickTorresCastro@gmail.com">RickTorresCastro@gmail.com</a>
         </div>
         <div className="contact-row">
           <span>GitHub</span>
