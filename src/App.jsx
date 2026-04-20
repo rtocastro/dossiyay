@@ -1,28 +1,30 @@
 import { Outlet } from 'react-router-dom';
-import Nav from './components/NavTabs';
-
-
-import './App.css'
-
-import Header from './components/Header'
-import About from './pages/About'
-import Contact from './pages/Contact';
-import Resume from './pages/Resume';
-import Portfolio from './pages/Portfolio';
+import NavTabs from './components/NavTabs';
 import Footer from './components/Footer';
+import './App.css';
 
 function App() {
-
-
   return (
-    <>
-      <Nav />
-      <Header />
-      <Outlet />
-      <Footer />
+    <div className="site-shell">
+      <header className="site-header">
+        <div className="container">
+          <NavTabs />
+        </div>
+      </header>
 
-    </>
-  )
+      <main className="site-main">
+        <div className="container">
+          <Outlet />
+        </div>
+      </main>
+
+      <footer className="site-footer">
+        <div className="container">
+          <Footer />
+        </div>
+      </footer>
+    </div>
+  );
 }
 
-export default App
+export default App;
