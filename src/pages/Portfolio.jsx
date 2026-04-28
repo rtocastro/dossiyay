@@ -1,21 +1,9 @@
 const projects = [
     {
-        title: 'Social Bee (Springboard System)',
-        liveUrl: 'https://beesocial-k3js.onrender.com/', // done, current 4/19/2026
-        repoUrl: 'https://github.com/rtocastro/socialbee', // done, current
-        role: 'UX Strategy • System Design • Frontend Planning',
-        summary:
-            'A structured content planning system designed to streamline multi-platform posting, scheduling, and workflow organization.',
-        problem:
-            'Managing consistent content across multiple platforms required a clearer system to organize ideas, timing, and execution without creating unnecessary complexity.',
-        solution:
-            'I designed a structured “Springboard” system that organizes content by platform, timing, and purpose, creating a repeatable workflow that simplifies planning and improves consistency across channels.',
-    },
-  {
         title: 'Munch Monitor Pro',
         liveUrl: 'https://munchmonitorpro.onrender.com',
         repoUrl: 'https://github.com/Vigneshwarie/munchMonitorPro', // On Viggy's Github, 4/19/2026
-        role: 'UX/UI Design • Frontend Development',
+        role: 'UX/UI Design • Frontend Development • AI Chatbot Integration',
         summary:
             'A responsive web application focused on improving usability, content clarity, and overall user flow.',
         problem:
@@ -24,29 +12,55 @@ const projects = [
             'I led the UI structure and frontend implementation, organizing the interface into clearer sections, improving visual hierarchy, and creating a more intuitive navigation experience.',
     },
     {
-        title: 'Helpy Helperton',
-        liveUrl: 'https://helpyhelperton.onrender.com',
-        repoUrl: 'https://github.com/rtocastro/helpyhelperton', // replaced with current version, 4/19/2026
-        role: 'Frontend Development • UX Support',
+        title: 'Captain Crop',
+        liveUrl: 'https://captaincrop.onrender.com/',
+        repoUrl: 'https://github.com/rtocastro/captaincrop',
+        role: 'Full-Stack Development • UX/UI Design • Firebase Integration',
         summary:
-            'A web experience designed to make user actions and information easier to access and understand.',
+            'A community-focused harvest planning app designed to help people track, organize, and share locally grown food.',
         problem:
-            'Users needed a more straightforward way to navigate content and understand what actions to take next.',
+            'Neighborhood growers needed a simple way to plan harvests, organize what they have available, and support community swapping without relying on scattered messages or informal tracking.',
         solution:
-            'I contributed to frontend development while improving layout clarity and interaction flow, helping create a more guided and user-friendly experience.',
+            'I designed and built Captain Crop from scratch, using Firebase to support the app’s data-driven features while creating a friendly interface for harvest planning, community sharing, and local coordination.',
     },
     {
-        title: 'Portfolio Repositioning',
-        liveUrl: '/',
-        repoUrl: 'https://github.com/rtocastro/dossiyay', // done with current version, 4/19/2026
-        role: 'UX Strategy • Design Systems Thinking • Frontend',
+        title: 'Social Bee (Springboard System)',
+        liveUrl: 'https://beesocial-k3js.onrender.com/', // done, current 4/19/2026
+        repoUrl: 'https://github.com/rtocastro/socialbee', // done, current
+        role: 'UX Strategy • System Design • Frontend Planning • React Development • AI Content Structuring',
         summary:
-            'A strategic redesign of my portfolio to better reflect my work in UX, design systems, and project leadership.',
+            'A structured content planning system designed to streamline multi-platform posting, scheduling, and workflow organization.',
         problem:
-            'The previous version positioned me as a junior developer rather than someone capable of leading UX and structured product work.',
+            'Managing consistent content across multiple platforms required a clearer system to organize ideas, timing, and execution without creating unnecessary complexity.',
         solution:
-            'I restructured the site from the ground up, refining messaging, improving layout hierarchy, and aligning the presentation with UX strategy, system thinking, and implementation readiness.',
+            'I designed a structured “Springboard” system that organizes content by platform, timing, and purpose, creating a repeatable workflow that simplifies planning and improves consistency across channels.',
     },
+    {
+    title: 'CARE',
+    liveUrl: 'https://rollingnerdy.onrender.com/',
+    repoUrl: 'https://github.com/rtocastro/rollingnerdy',
+    role: 'Frontend Development • UX/UI Design • Personal Health Tracking • AI Integration',
+    summary:
+        'A pain tracking and journaling app created to document symptoms, daily condition changes, and recovery notes after an accident.',
+    problem:
+        'After an accident, keeping consistent records of pain, symptoms, and recovery details can be difficult, especially when that information may later need to be referenced clearly by legal professionals.',
+    solution:
+        'I built CARE from scratch as a structured journaling tool that makes it easier to record pain levels, notes, and personal documentation in a clear, organized format for future reference.',
+},
+{
+    title: 'Paw Protect',
+    liveUrl: 'https://pawandorder.onrender.com/',
+    repoUrl: 'https://github.com/rtocastro/pawandorder',
+    role: 'Frontend Development • UX/UI Design • Weather-Based Safety Tool',
+    summary:
+        'A simple pet safety app that helps dog owners check whether outdoor conditions may be too hot or too cold for their dog’s paws.',
+    problem:
+        'Concrete and pavement can become unsafe for dogs during extreme heat or cold, but pet owners do not always have a quick way to judge whether conditions are risky.',
+    solution:
+        'I created Paw Protect from scratch as a quick-check tool that uses outdoor conditions to help owners make safer walking decisions and protect their dogs’ feet from harsh pavement.',
+},
+
+
 ];
 
 export default function Portfolio() {
