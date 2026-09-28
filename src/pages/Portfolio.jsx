@@ -1,11 +1,11 @@
 const projects = [
     {
-        title: 'Munch Monitor Pro',
-        liveUrl: 'https://munchmonitorpro.onrender.com',
-        repoUrl: 'https://github.com/Vigneshwarie/munchMonitorPro', // On Viggy's Github, 4/19/2026
-        role: 'UX/UI Design • Frontend Development • AI Chatbot Integration',
+        title: 'Tummy Tracker',
+        liveUrl: 'https://tummy-tracker.onrender.com',
+        repoUrl: 'https://github.com/rtocastro/tummy-tracker', // New version of Munch Monitor
+        role: 'UX/UI Design • Full Stack Web Development • AI Chatbot Integration (coming soon)',
         summary:
-            'A responsive web application focused on improving usability, content clarity, and overall user flow.',
+            'A responsive web application focused on improving usability, content clarity, and overall user flow. To help keep track of pet food/med intake',
         problem:
             'The platform required a clearer structure to help users understand available features and move through tasks without confusion.',
         solution:
